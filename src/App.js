@@ -1,10 +1,7 @@
+import ProfileContainer from './components/ProfileContainer';
 
 const App = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-}
+  return <ProfileContainer />;
+};
 
 export default App;

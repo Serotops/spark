@@ -1,0 +1,48 @@
+.container {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #17202a;
+  border-radius: 7px;
+  background: rgb(74, 35, 90, 0.5);
+}
+
+.sub-container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img-profile {
+  border: 3px solid #17202a;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  transform: translate(120%, 50%);
+}
+
+.link {
+  color: rgb(255, 255, 255);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: noce;
+  color: #e4e2e2a9;
+  text-shadow: 1px 1px 2px rgb(116, 12, 165);
+}
+
+.profile-spark-text {
+  position: absolute;
+  transform: translate(80%, -80%)
+}
