@@ -55,7 +55,6 @@ const ProfileContainer = () => {
           </a>
           <a
             className='link'
-            href=''
             onClick={clickHandler}
             onMouseEnter={enterClickHandler}
             onMouseLeave={leaveClickHandler}
