@@ -58,6 +58,8 @@ const ProfileContainer = () => {
             onClick={clickHandler}
             onMouseEnter={enterClickHandler}
             onMouseLeave={leaveClickHandler}
+            onPress={clickHandler}
+            onRelease={leaveClickHandler}
           >
             {discordTag}
           </a>
