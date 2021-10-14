@@ -1,8 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 
 import pic from './spike.png';
 import './ProfileContainer.css';
-import SparkText from './SparkText';
 
 const ProfileContainer = () => {
   let clickCheck = false;
@@ -26,9 +26,6 @@ const ProfileContainer = () => {
 
   return (
     <>
-      <div className="profile-spark-text">
-        <SparkText />
-      </div>
       <div>
         <img
           src={pic}
@@ -58,6 +55,7 @@ const ProfileContainer = () => {
           </a>
           <a
             className='link'
+            href=''
             onClick={clickHandler}
             onMouseEnter={enterClickHandler}
             onMouseLeave={leaveClickHandler}
